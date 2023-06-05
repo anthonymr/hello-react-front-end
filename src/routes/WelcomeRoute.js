@@ -1,10 +1,10 @@
 import React from 'react';
-import Welcome from '../components/Welcome';
+import Greeting from '../components/Greeting';
 
 function WelcomeRoute() {
 	return (
 		<section>
-			<Welcome />
+			<Greeting />
 		</section>
 	)
 }

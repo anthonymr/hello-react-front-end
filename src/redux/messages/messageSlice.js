@@ -10,7 +10,7 @@ export const getMessage = createAsyncThunk(
   'message/getMessage',
   async () => {
     const response = await axios.get('http://localhost:3000/api/v1/messages/random');
-    return response.data.message;
+    return response.data.text;
   },
 );
 
