@@ -1,70 +1,128 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Author](#author)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
 
-In the project directory, you can run:
+- [📝 License](#license)
 
-### `npm start`
+# 📖 Hello Rails [FRONTEND] <a name="about-project"></a>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Testing React on Rails [FRONTEND] (two applications)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+[Backend part](https://github.com/anthonymr/hello-rails-back-end)
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- <a href="https://www.ruby-lang.org/">Ruby</a>
+- <a href="https://rubyonrails.org/">Rails</a>
+- <a href="https://es.react.dev/">React</a>
+- <a href="https://rubyonrails.org/">Redux</a>
+- <a href="https://redux.js.org/">Redux toolkit</a>
+- <a href="https://redux-toolkit.js.org/">PostgreSQL</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Key Features <a name="key-features"></a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Testing React on Rails (single application)
 
-### `npm run eject`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Getting Started <a name="getting-started"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+To run this project you need the following dependencies:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+ - Ruby: `3.2.2`
+ - Rails: `7.0.5`
+ - PostgreSQL: `15.2`
 
-## Learn More
+### Setup
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Clone this repository to your local machine:
+```sh
+  git clone git@github.com:anthonymr/hello-rails-react.git
+  cd hello-rails-react
+```
+- Install dependencies:
+```sh
+  bundle install
+```
+- Create environment variables `POSTGRESQL_USER` and `POSTGRESQL_PASSWORD` or edit `config/database.yml` with your database connection info.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Recreate Data Base:
+```sh
+  rake db:schema:load
+```
 
-### Code Splitting
+### Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run the project, execute the following command in the terminal:
 
-### Analyzing the Bundle Size
+```  sh
+  cd hello-rails-react
+  rails s  
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 👥 Author <a name="author"></a>
 
-### Making a Progressive Web App
+👤 **Anthony Martin**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- GitHub: [anthonymr](https://github.com/anthonymr)
+- Twitter: [@Anthony2Martin](https://twitter.com/Anthony2Martin)
+- LinkedIn: [anthony-martin](https://www.linkedin.com/in/anthony-martin-8820a3117/)
 
-### Advanced Configuration
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## 🔭 Future Features <a name="future-features"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- Add picture to user account.
+- Generate reports.
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/anthonymr/hello-rails-react/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank the Microverse community for their support and guidance.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
