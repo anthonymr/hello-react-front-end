@@ -18,14 +18,11 @@ const messageSlice = createSlice({
   name: 'message',
   initialState,
   extraReducers: (builder) => {
-    builder.addCase(getMessage.fulfilled, (state, { payload }) => {
-      
-      return {
-        ...state,
-        loaded: true,
-        message: payload,
-      }
-    });
+    builder.addCase(getMessage.fulfilled, (state, { payload }) => ({
+      ...state,
+      loaded: true,
+      message: payload,
+    }));
   },
 });
 

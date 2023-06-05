@@ -1,8 +1,6 @@
-import React from "react";
-import { useSelector, useDispatch } from "react-redux";
-import { getMessage } from "../redux/messages/messageSlice";
-import { useEffect } from "react";
-
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
+import { getMessage } from '../redux/messages/messageSlice';
 
 function Greeting() {
   const dispatch = useDispatch();
@@ -13,9 +11,11 @@ function Greeting() {
 
   const message = useSelector((state) => state.messages.message);
 
-  return (<h1>
-    { message }
-  </h1>)
+  return (
+    <h1>
+      { message }
+    </h1>
+  );
 }
 
 export default Greeting;
